@@ -6,7 +6,11 @@ console.log("oldArray:", oldArray);
 console.log("newArray:", newArray);
 
 // Gán giá trị mới cho oldArray
-oldArray = {};
+// oldArray = {};
+
+// spread
+var oldArray = [10,11,12];
+var newArray = [...oldArray,22,33]
 
 console.log("oldArray sau khi gán lại:", oldArray);
 console.log("newArray sau khi oldArray thay đổi:", newArray);
